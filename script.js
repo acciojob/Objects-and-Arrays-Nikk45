@@ -9,6 +9,10 @@ const person = {
 
 const team = players;
 const team1 = [];
+
+for(let i=0;i<players.length;i++){
+	team1.push(players[i]);
+}
 const cap1 = {};
 
 window.players = players;
